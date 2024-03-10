@@ -39,8 +39,17 @@ This Python script converts waypoints from VoxelMap format to Xaero's World Map 
    - The script will process each `.points` file from the VoxelMap directory and create or update corresponding files in the Xaero's World Map directory.
 
 6. **Play:**
-   - Open up your world/server and you should see the new Xaero Map waypoints in-game.
-  
+   - Open up your world/server and you should see the new Xaero Map waypoints in-game.  
+## Command-line Arguments
+
+1. Use `--voxelmap-dir` to specify a custom VoxelMap directory.
+   - Example: `--voxelmap-dir "/path/to/voxelmap"`
+
+2. Use `--xaeromap-dir` to specify a custom Xaero's waypoints directory.
+   - Example: `--xaeromap-dir "/path/to/xaerowaypoints"`
+
+3. Example: `python VoxelMap2XaeroWaypoints.py --voxelmap-dir /path/to/voxelmap --xaeromap-dir /path/to/xaerowaypoints`.
+
 ## Notes
 
 - **Backup your original waypoint files before running the script.**
