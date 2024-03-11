@@ -50,6 +50,50 @@ This Python script converts waypoints from VoxelMap format to Xaero's World Map 
 
 3. Example: `python VoxelMap2XaeroWaypoints.py --voxelmap-dir /path/to/voxelmap --xaeromap-dir /path/to/xaerowaypoints`.
 
+## Example Output
+
+```
+--------------------------------------------------
+VoxelMap to Xaero Conversion Process Initiated
+--------------------------------------------------
+Checking directories... OK
+
+Processing Multiplayer file: [IP_ADDRESS]~colon~[PORT].points
+- Assigning waypoints... Done
+- Adding waypoints to Overworld... 1 new waypoints added.
+- Conversion for [IP_ADDRESS]~colon~[PORT].points completed.
+
+Processing Singleplayer file: 1_20 test.points
+- Assigning waypoints... Done
+- Adding waypoints to Overworld... 11 new waypoints added.
+- Adding waypoints to The_nether... 8 new waypoints added.
+- Adding waypoints to The_end... 1 new waypoints added.
+- Conversion for 1_20 test.points completed.
+
+Processing Multiplayer file: us.mineplex.com.points
+- Assigning waypoints... Done
+- Adding waypoints to Overworld... 17 new waypoints added.
+- Adding waypoints to The_nether... 16 new waypoints added.
+- Adding waypoints to The_end... 3 new waypoints added.
+- Conversion for us.mineplex.com.points completed.
+
+--------------------------------------------------
+Conversion Summary:
+- Total files processed: 3
+- Total waypoints added: Overworld (29)
+  - [IP_ADDRESS]~colon~[PORT]: 1
+  - 1_20 test: 11
+  - us.mineplex.com: 17
+- Total waypoints added: The_nether (24)
+  - 1_20 test: 8
+  - us.mineplex.com: 16
+- Total waypoints added: The_end (4)
+  - 1_20 test: 1
+  - us.mineplex.com: 3
+- Conversion process completed successfully.
+--------------------------------------------------
+```
+
 ## Notes
 
 - **Backup your original waypoint files before running the script.**
