@@ -1,4 +1,4 @@
-# Minecraft VoxelMap to Xaero's World Map Converter
+# Minecraft VoxelMap to Xaero's World Map Converter (MC 1.20.4)
 
 This Python script converts waypoints from VoxelMap format to Xaero's World Map format for for Minecraft (Current version is 1.20.4, but I assume it will work in the future). It enables Minecraft players who have switched from using VoxelMap to Xaero's World Map to retain their saved waypoints, ensuring a seamless transition between these mapping mods.
 
