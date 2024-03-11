@@ -70,28 +70,31 @@ Processing Singleplayer file: 1_20 test.points
 - Adding waypoints to The_end... 1 new waypoints added.
 - Conversion for 1_20 test.points completed.
 
-Processing Multiplayer file: us.mineplex.com.points
+Processing Multiplayer file: hypixel.net.points
 - Assigning waypoints... Done
 - Adding waypoints to Overworld... 17 new waypoints added.
 - Adding waypoints to The_nether... 16 new waypoints added.
 - Adding waypoints to The_end... 3 new waypoints added.
-- Conversion for us.mineplex.com.points completed.
-
+- Conversion for hypixel.net.points completed.
 --------------------------------------------------
+
 Conversion Summary:
 - Total files processed: 3
 - Total waypoints added: Overworld (29)
   - [IP_ADDRESS]~colon~[PORT]: 1
   - 1_20 test: 11
-  - us.mineplex.com: 17
+  - hypixel.net: 17
 - Total waypoints added: The_nether (24)
   - 1_20 test: 8
-  - us.mineplex.com: 16
+  - hypixel.net: 16
 - Total waypoints added: The_end (4)
   - 1_20 test: 1
-  - us.mineplex.com: 3
+  - hypixel.net: 3
 - Conversion process completed successfully.
 --------------------------------------------------
+This script was created by PJ's.
+For updates or issues, visit: https://github.com/im-PJs/VoxelMap2XaeroWaypoints
+----------------------------------------------------------------------
 ```
 
 ## Notes
