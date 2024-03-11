@@ -6,7 +6,6 @@ import argparse
 import glob
 import random
 import sys
-import time
 import logging
 from collections import defaultdict
 import re
